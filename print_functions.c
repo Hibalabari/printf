@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * print_char - just print char
- * @ap: arg pointer
- * @params: parameter structer
+ * print_char - prints character
+ * @ap: argument pointer
+ * @params: the parameters struct
  *
- * Return: printed char
+ * Return: number chars printed
  */
-
 int print_char(va_list ap, params_t *params)
 {
 	char pad_char = ' ';
@@ -23,13 +22,12 @@ int print_char(va_list ap, params_t *params)
 }
 
 /**
- * print_int - printed int
- * @ap: args *
- * @params: parameter structer
+ * print_int - prints integer
+ * @ap: argument pointer
+ * @params: the parameters struct
  *
- * Return: the printed char
+ * Return: number chars printed
  */
-
 int print_int(va_list ap, params_t *params)
 {
 	long l;
@@ -44,11 +42,11 @@ int print_int(va_list ap, params_t *params)
 }
 
 /**
- * print_string - just print a str
- * @ap: arg *
- * @params: param structer
+ * print_string - prints string
+ * @ap: argument pointer
+ * @params: the parameters struct
  *
- * Return: the char count
+ * Return: number chars printed
  */
 int print_string(va_list ap, params_t *params)
 {
@@ -86,11 +84,11 @@ int print_string(va_list ap, params_t *params)
 }
 
 /**
- * print_percent - just print %
- * @ap: args *
- * @params: parameter structer
+ * print_percent - prints string
+ * @ap: argument pointer
+ * @params: the parameters struct
  *
- * Return: counter
+ * Return: number chars printed
  */
 int print_percent(va_list ap, params_t *params)
 {
@@ -100,11 +98,11 @@ int print_percent(va_list ap, params_t *params)
 }
 
 /**
- * print_S - format
- * @ap: arg *
- * @params: parameter structer
+ * print_S - custom format specifier
+ * @ap: argument pointer
+ * @params: the parameters struct
  *
- * Return: num of char
+ * Return: number chars printed
  */
 int print_S(va_list ap, params_t *params)
 {
