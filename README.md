@@ -1,1 +1,1 @@
-team project on printf C
+this is a team project on printf C
