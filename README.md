@@ -16,5 +16,8 @@ For o conversions the first character of the output string is made zero (by pref
 (Blank Space) The argument is padded with a single blank space before a positive number or empty string produced by a signed conversion.
 ## ( +	)
 A sign (+ or -) should always be placed before a number produced with a signed conversion. By default, only negative numbers have this sign.
-
+## d, i
+The argument int is converted to a signed decimal notation. If precision is present,it gives the minimum number of digits that must appear; if the converted value requires fewer digits, then it is padded with zeros on the left. Default precision is 1.
+## o, u, x, X
+The argument is converted to unsigned octal (o), unsigned decimal (u), or unsigned hexamedical (x and X) notation. The letters abcdef are used for x conversion and the letters ABCDEF are used for X conversion. If precision is present, it will give the minimum number of digits that must appear; if the converted value requires fewer digits, then it will be padded with zeros. By default the precision is 1.
 ## Heba && Eslam
