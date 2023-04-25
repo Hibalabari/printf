@@ -24,5 +24,10 @@ The argument is converted to unsigned octal (o), unsigned decimal (u), or unsign
 The int argument is converted to an unsigned char and the resulting character is written. The representation of characters is based off the ASCII coding.
 ## s	
 The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are printed up to (but not including) a null byte ('\0'). If precision is specified, then this will determine how many characters are taken into account for printing.
+## p
+A void * pointer argument is printed as hexadecimal in lower caps representing an adress in memory.
+## %	
+A ' % ' character is written and no conversion is made. The specification is as follows: %%.
+
 
 ## Heba && Eslam
