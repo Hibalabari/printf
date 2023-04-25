@@ -16,11 +16,10 @@ int _puts(char *str)
 }
 
 /**
- * _putchar - writes the character c to the stdout
- * @c: The character to print print the character
+ * _putchar - writes the character c the stdout
+ * @c: print the character
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: 1 On error -1
  */
 int _putchar(int c)
 {
@@ -36,4 +35,3 @@ int _putchar(int c)
 		buf[i++] = c;
 	return (1);
 }
-
