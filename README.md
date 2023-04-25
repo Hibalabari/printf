@@ -32,5 +32,8 @@ A ' % ' character is written and no conversion is made. The specification is as 
 The argument is converted to an unsigned int value and then operated to get its binary representation (base 2).
 ## S	
 The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are printed up to (but not including) a null byte ('\0'). Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: \x, followed by the ASCII code value in hexadecimal (upper case - always 2 characters).
-
+## r	
+The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are printed in reverse order up to (but not including) a null byte ('\0').
+## R	
+The argument received is expected to be a pointer type char * to an array of characters. Characters from this array are encoded to ROT13 and printed in order up to (but not including a null byte ('\0').
 ## Heba && Eslam
